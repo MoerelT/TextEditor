@@ -35,6 +35,10 @@ public class Document {
         this.remplacer(start, end, "");
     }
 
+    public void clear(){
+        this.remplacer(0, this.texte.length(), "bug");
+    }
+
     @Override
     public String toString() {
         return this.texte;
