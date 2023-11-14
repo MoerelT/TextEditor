@@ -7,7 +7,15 @@ import fr.iut.editeur.commande.factory.CommandeFactory;
 
 import java.util.Scanner;
 
+/**
+ * Classe Main sert au lancement du programme d'ééditeur de texte
+ */
 public class Main {
+
+    /**
+     * Lancer le programme
+     * @param args paramètres qui permettent le lancement du programme
+     */
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Document document = new Document();
